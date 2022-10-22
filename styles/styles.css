@@ -9,7 +9,7 @@
 
 /* Pagina de Incio */
 #principal {
-    background-image: url(./images/inicio.png);
+    background-image: url(../images/inicio.png);
     background-repeat: no-repeat;
     flex-wrap: wrap;
     }
