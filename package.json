@@ -1,0 +1,24 @@
+{
+  "name": "preentrega2rivasemanuel29",
+  "version": "1.0.0",
+  "description": "preentrega2rivasemanuel29",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css" : "sass sources/styles/styles.scss sources/styles/styles.css",
+    "watch-css" : "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmarvs1/PreEntrega2RivasEmanuel.git"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmarvs1/PreEntrega2RivasEmanuel/issues"
+  },
+  "homepage": "https://github.com/emmarvs1/PreEntrega2RivasEmanuel#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
