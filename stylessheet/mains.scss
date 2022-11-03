@@ -26,31 +26,32 @@
             flex-wrap: wrap;
             align-items: stretch;
             flex-direction: column;
-
-            h1 {   
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;         
-                font-size: 100px;  
-                  align-items: stretch;      
-                  color: rgb(255, 255, 255);
-              }
-              hr {
-                margin-top: 30px;
-                width: 90%;
-                height: 10px;
-                background-color: rgba(211, 9, 9, 0.514);
-                border-radius: 10px;
-                border-color: rgba(199, 11, 11, 0.979);
-            }
-            p {
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                  margin-top: 15px;
-                  font-size: 20px;
-                  color: rgb(253, 254, 255);
-              }
-      
+            
 
           }
 
+        .content h1 {   
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;         
+          font-size: 100px;  
+            align-items: stretch;      
+            color: rgb(255, 255, 255);
+        }
+
+        .content hr {
+            margin-top: 30px;
+            width: 90%;
+            height: 10px;
+            background-color: rgba(211, 9, 9, 0.514);
+            border-radius: 10px;
+            border-color: rgba(199, 11, 11, 0.979);
+        }
+
+        .content p {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 15px;
+            font-size: 20px;
+            color: rgb(253, 254, 255);
+        }
 
         button,
         button::after {
@@ -329,7 +330,7 @@
 
       .nosotros2 { 
         text-align: center;
-        position: absolute
+        position: absolute;
         top: 250px;
         margin-bottom: 5rem;
         justify-items: center;              
@@ -421,7 +422,7 @@
       }
         
       .titulomenu {
-        color: #ffffff
+        color: #ffffff;
         font-size: 80px;
         text-align: center;
        }
@@ -536,6 +537,7 @@
  
  @media screen and (max-width: 780px)
  {
+
   .container__cards{
     position: relative;
     top: 0;
