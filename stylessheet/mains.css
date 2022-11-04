@@ -24,15 +24,13 @@
   align-items: stretch;
   flex-direction: column;
 }
-
 .content h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 100px;
   align-items: stretch;
   color: rgb(255, 255, 255);
 }
-
-.content hr {
+.content .content hr {
   margin-top: 30px;
   width: 90%;
   height: 10px;
@@ -40,7 +38,6 @@
   border-radius: 10px;
   border-color: rgba(199, 11, 11, 0.979);
 }
-
 .content p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 15px;
@@ -222,11 +219,9 @@ footer {
 .colum1 {
   max-width: 400px;
 }
-
 .colum1 h3 {
   font-size: 22px;
 }
-
 .colum1 p {
   font-size: 14px;
   color: #C7C7C7;
@@ -236,7 +231,6 @@ footer {
 .colum2 {
   max-width: 400px;
 }
-
 .colum2 h3 {
   font-size: 22px;
 }
@@ -245,13 +239,11 @@ footer {
   margin-top: 20px;
   display: flex;
 }
-
 .fila img {
   width: 36px;
   height: 36px;
 }
-
-.fila laber {
+.fila label {
   margin-top: 10px;
   height: 20px;
   color: #C7C7C7;
@@ -260,7 +252,6 @@ footer {
 .colum3 {
   max-width: 400px;
 }
-
 .colum3 h3 {
   font-size: 22px;
 }
@@ -270,13 +261,11 @@ footer {
   display: flex;
   text-align: center;
 }
-
 .fila1 img {
   width: 45px;
   height: 45px;
 }
-
-.fila1 laber {
+.fila1 label {
   margin-top: 10px;
   margin-left: 20px;
   max-width: 150px;
@@ -301,7 +290,6 @@ footer {
 .copyright {
   color: #C7C7C7;
 }
-
 .copyright a {
   text-decoration: none;
   color: #FFFFFF;
@@ -333,10 +321,32 @@ footer {
   border-style: double;
   color: white;
 }
-
 .form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
+}
+.form-register p {
+  height: 40px;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+}
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+.form-register:hover {
+  color: white;
+}
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
 }
 
 .controls {
@@ -348,33 +358,6 @@ footer {
   margin-bottom: 20px;
   border: 1px solid #1f53c5;
   font-size: 18px;
-}
-
-.form-register p {
-  height: 40px;
-  margin: 20px;
-  text-align: center;
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.form-register a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-register a:hover {
-  color: white;
-}
-
-.form-register .botons {
-  width: 100%;
-  background: #1f53c5;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
 }
 
 /* PAGINA NOSOTROS */
@@ -399,12 +382,14 @@ footer {
   font-size: 20px;
   display: flex;
 }
-
 .nosotros-texto p {
   display: flex;
 }
 
-.nosotros-texto img {
+.nosotros-texto p {
+  display: flex;
+}
+.nosotros-texto p img {
   display: flex;
   border-radius: 1rem;
   width: 500px;
@@ -414,6 +399,11 @@ footer {
   color: white;
   font-size: 20px;
   display: flex;
+}
+.nosotros-texto1 img {
+  display: flex;
+  border-radius: 1rem;
+  width: 500px;
 }
 
 .nosotros-texto1 img {
@@ -430,8 +420,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
-.bloques img {
+.bloque img {
   width: 90px;
   height: 90px;
   display: flex;
@@ -499,6 +488,31 @@ footer {
   -webkit-backdrop-filter: blur(5px);
   transition: all 300ms;
 }
+.card h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #fff;
+}
+.card p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.card hr {
+  margin-top: 30px;
+  border: none;
+  height: 0.2px;
+  background: rgba(65, 65, 65, 0.2196078431);
+}
+.card hr {
+  margin-top: 30px;
+  border: none;
+  height: 0.2px;
+  background: rgba(65, 65, 65, 0.2196078431);
+}
 
 .card:hover {
   transform: translateY(-10px);
@@ -514,32 +528,9 @@ footer {
   border-radius: 14px;
   overflow: hidden;
 }
-
 .cover__card img {
   width: 110%;
   transition: all 300ms;
-}
-
-.card h2 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 20px;
-  color: #fff;
-}
-
-.card p {
-  margin-top: 20px;
-  font-size: 14px;
-  font-weight: 300;
-  color: #fff;
-  letter-spacing: 0.5px;
-}
-
-.card hr {
-  margin-top: 30px;
-  border: none;
-  height: 0.2px;
-  background: rgba(65, 65, 65, 0.2196078431);
 }
 
 .footer__card {
@@ -548,7 +539,6 @@ footer {
   color: #fff;
   justify-content: space-between;
 }
-
 .footer__card h3 {
   font-size: 15px;
   font-weight: 500;
@@ -565,12 +555,10 @@ footer {
   width: 100%;
   display: flex;
 }
-
 .contenedor-contacto h3 {
   font-size: 26px;
   text-align: center;
 }
-
 .contenedor-contacto label {
   margin: 25px;
   display: flex;
