@@ -75,129 +75,57 @@ button::after {
   bottom: 0;
   background: linear-gradient(45deg, transparent 3%, #a4f600 3%, #11c07a 5%, #ff013c 5%);
   text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #f600a8;
-  -webkit-clip-path: var(--slice-0);
-          clip-path: var(--slice-0);
+  clip-path: var(--slice-0);
 }
 
 button:hover::after {
-  -webkit-animation: 1s glitch;
-          animation: 1s glitch;
-  -webkit-animation-timing-function: steps(2, end);
-          animation-timing-function: steps(2, end);
-}
-
-@-webkit-keyframes glitch {
-  0% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
-    transform: translate(-20px, -10px);
-  }
-  10% {
-    -webkit-clip-path: var(--slice-3);
-            clip-path: var(--slice-3);
-    transform: translate(10px, 10px);
-  }
-  20% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
-    transform: translate(-10px, 10px);
-  }
-  30% {
-    -webkit-clip-path: var(--slice-3);
-            clip-path: var(--slice-3);
-    transform: translate(0px, 5px);
-  }
-  40% {
-    -webkit-clip-path: var(--slice-2);
-            clip-path: var(--slice-2);
-    transform: translate(-5px, 0px);
-  }
-  50% {
-    -webkit-clip-path: var(--slice-3);
-            clip-path: var(--slice-3);
-    transform: translate(5px, 0px);
-  }
-  60% {
-    -webkit-clip-path: var(--slice-4);
-            clip-path: var(--slice-4);
-    transform: translate(5px, 10px);
-  }
-  70% {
-    -webkit-clip-path: var(--slice-2);
-            clip-path: var(--slice-2);
-    transform: translate(-10px, 10px);
-  }
-  80% {
-    -webkit-clip-path: var(--slice-5);
-            clip-path: var(--slice-5);
-    transform: translate(20px, -10px);
-  }
-  90% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
-    transform: translate(-10px, 0px);
-  }
-  100% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
-    transform: translate(0);
-  }
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
 }
 
 @keyframes glitch {
   0% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
+    clip-path: var(--slice-1);
     transform: translate(-20px, -10px);
   }
   10% {
-    -webkit-clip-path: var(--slice-3);
-            clip-path: var(--slice-3);
+    clip-path: var(--slice-3);
     transform: translate(10px, 10px);
   }
   20% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
+    clip-path: var(--slice-1);
     transform: translate(-10px, 10px);
   }
   30% {
-    -webkit-clip-path: var(--slice-3);
-            clip-path: var(--slice-3);
+    clip-path: var(--slice-3);
     transform: translate(0px, 5px);
   }
   40% {
-    -webkit-clip-path: var(--slice-2);
-            clip-path: var(--slice-2);
+    clip-path: var(--slice-2);
     transform: translate(-5px, 0px);
   }
   50% {
-    -webkit-clip-path: var(--slice-3);
-            clip-path: var(--slice-3);
+    clip-path: var(--slice-3);
     transform: translate(5px, 0px);
   }
   60% {
-    -webkit-clip-path: var(--slice-4);
-            clip-path: var(--slice-4);
+    clip-path: var(--slice-4);
     transform: translate(5px, 10px);
   }
   70% {
-    -webkit-clip-path: var(--slice-2);
-            clip-path: var(--slice-2);
+    clip-path: var(--slice-2);
     transform: translate(-10px, 10px);
   }
   80% {
-    -webkit-clip-path: var(--slice-5);
-            clip-path: var(--slice-5);
+    clip-path: var(--slice-5);
     transform: translate(20px, -10px);
   }
   90% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
+    clip-path: var(--slice-1);
     transform: translate(-10px, 0px);
   }
   100% {
-    -webkit-clip-path: var(--slice-1);
-            clip-path: var(--slice-1);
+    clip-path: var(--slice-1);
     transform: translate(0);
   }
 }
@@ -374,7 +302,7 @@ footer {
 
 .nuestros-productos h1 {
   bottom: 200px;
-  color: #ffffff;
+  color: #a4f600;
 }
 
 .nosotros-texto {
@@ -591,7 +519,7 @@ footer {
     max-width: 100%;
   }
   .colum2,
-.colum3 {
+  .colum3 {
     margin-top: 40px;
   }
   .container-info {
@@ -619,4 +547,6 @@ footer {
     display: flex;
     flex-direction: column;
   }
-}/*# sourceMappingURL=mains.css.map */
+}
+
+/*# sourceMappingURL=mains.css.map */

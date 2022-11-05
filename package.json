@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "sass stylessheet/mains.scss styleesheet/mains.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "build-css": "sass stylessheet/mains.scss stylessheet/mains.css",
+    "watch-css": "sass \"npm run build-css\""
   },
   "repository": {
     "type": "git",
