@@ -295,9 +295,11 @@ footer {
 
 .nosotros2 {
   text-align: center;
+  width: 100%;
   top: 250px;
   margin-bottom: 5rem;
   justify-items: center;
+  overflow: hidden;
 }
 
 .nuestros-productos h1 {
@@ -309,17 +311,17 @@ footer {
   font-size: 20px;
   display: flex;
 }
-.nosotros-texto p {
-  display: flex;
-}
 
 .nosotros-texto p {
   display: flex;
+  overflow: hidden;
 }
 .nosotros-texto p img {
+  width: 100%;
   display: flex;
   border-radius: 1rem;
   width: 500px;
+  overflow: hidden;
 }
 
 .nosotros-texto1 {
@@ -519,15 +521,34 @@ footer {
   .container-info {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+   
   }
   .nosotros-texto {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+   
   }
   .nosotros-texto1 {
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
+  
   }
-}
+  .contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+  }
+  .map{
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+   }
+  
+
+  }
+
 
 /*# sourceMappingURL=styles.css.map */
