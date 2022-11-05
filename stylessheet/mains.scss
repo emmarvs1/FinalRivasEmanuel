@@ -387,7 +387,7 @@ $imac-width: 1620px;
          /* PAGINA NOSOTROS */
 
          #nosotros1 {
-          background-color: rgb(224, 18, 145);
+          background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negro_1017-33436.jpg?w=1380&t=st=1667675265~exp=1667675865~hmac=4f505174749f6e1360a010a7fd2b978c1f213ac50eea5482311c509dbb7bc4f8)
          }
          
 
@@ -400,6 +400,7 @@ $imac-width: 1620px;
       
       .nuestros-productos h1 {       
         bottom: 200px;
+        color: #a4f600;
       }
       .nosotros-texto {
         color: white;
@@ -408,6 +409,7 @@ $imac-width: 1620px;
 
         p {
           display: flex;
+          font-size: 30px;
         }
       }
 
