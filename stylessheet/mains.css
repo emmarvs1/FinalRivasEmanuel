@@ -1,5 +1,6 @@
 /* Goodle Font */
 @import url(https://fonts.google.com/share?selection.family=Righteous);
+
 * {
   margin: 0;
   padding: 0;
@@ -24,12 +25,14 @@
   align-items: stretch;
   flex-direction: column;
 }
+
 .content h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 100px;
   align-items: stretch;
   color: rgb(255, 255, 255);
 }
+
 .content .content hr {
   margin-top: 30px;
   width: 90%;
@@ -38,6 +41,7 @@
   border-radius: 10px;
   border-color: rgba(199, 11, 11, 0.979);
 }
+
 .content p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 15px;
@@ -88,47 +92,58 @@ button:hover::after {
     clip-path: var(--slice-1);
     transform: translate(-20px, -10px);
   }
+
   10% {
     clip-path: var(--slice-3);
     transform: translate(10px, 10px);
   }
+
   20% {
     clip-path: var(--slice-1);
     transform: translate(-10px, 10px);
   }
+
   30% {
     clip-path: var(--slice-3);
     transform: translate(0px, 5px);
   }
+
   40% {
     clip-path: var(--slice-2);
     transform: translate(-5px, 0px);
   }
+
   50% {
     clip-path: var(--slice-3);
     transform: translate(5px, 0px);
   }
+
   60% {
     clip-path: var(--slice-4);
     transform: translate(5px, 10px);
   }
+
   70% {
     clip-path: var(--slice-2);
     transform: translate(-10px, 10px);
   }
+
   80% {
     clip-path: var(--slice-5);
     transform: translate(20px, -10px);
   }
+
   90% {
     clip-path: var(--slice-1);
     transform: translate(-10px, 0px);
   }
+
   100% {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
 }
+
 footer {
   width: 100%;
   background: #202020;
@@ -147,9 +162,11 @@ footer {
 .colum1 {
   max-width: 400px;
 }
+
 .colum1 h3 {
   font-size: 22px;
 }
+
 .colum1 p {
   font-size: 14px;
   color: #C7C7C7;
@@ -159,6 +176,7 @@ footer {
 .colum2 {
   max-width: 400px;
 }
+
 .colum2 h3 {
   font-size: 22px;
 }
@@ -167,10 +185,12 @@ footer {
   margin-top: 20px;
   display: flex;
 }
+
 .fila img {
   width: 36px;
   height: 36px;
 }
+
 .fila label {
   margin-top: 10px;
   height: 20px;
@@ -180,6 +200,7 @@ footer {
 .colum3 {
   max-width: 400px;
 }
+
 .colum3 h3 {
   font-size: 22px;
 }
@@ -189,10 +210,12 @@ footer {
   display: flex;
   text-align: center;
 }
+
 .fila1 img {
   width: 45px;
   height: 45px;
 }
+
 .fila1 label {
   margin-top: 10px;
   margin-left: 20px;
@@ -218,6 +241,7 @@ footer {
 .copyright {
   color: #C7C7C7;
 }
+
 .copyright a {
   text-decoration: none;
   color: #FFFFFF;
@@ -249,10 +273,12 @@ footer {
   border-style: double;
   color: white;
 }
+
 .form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
+
 .form-register p {
   height: 40px;
   margin: 20px;
@@ -260,13 +286,16 @@ footer {
   font-size: 20px;
   line-height: 35px;
 }
+
 .form-register a {
   color: white;
   text-decoration: none;
 }
+
 .form-register:hover {
   color: white;
 }
+
 .form-register .botons {
   width: 100%;
   background: #1f53c5;
@@ -310,6 +339,7 @@ footer {
   font-size: 20px;
   display: flex;
 }
+
 .nosotros-texto p {
   display: flex;
   font-size: 30px;
@@ -318,6 +348,7 @@ footer {
 .nosotros-texto p {
   display: flex;
 }
+
 .nosotros-texto p img {
   display: flex;
   border-radius: 1rem;
@@ -329,6 +360,7 @@ footer {
   font-size: 20px;
   display: flex;
 }
+
 .nosotros-texto1 img {
   display: flex;
   border-radius: 1rem;
@@ -349,6 +381,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
 .bloque img {
   width: 90px;
   height: 90px;
@@ -417,12 +450,14 @@ footer {
   -webkit-backdrop-filter: blur(5px);
   transition: all 300ms;
 }
+
 .card h2 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
   color: #fff;
 }
+
 .card p {
   margin-top: 20px;
   font-size: 14px;
@@ -430,12 +465,14 @@ footer {
   color: #fff;
   letter-spacing: 0.5px;
 }
+
 .card hr {
   margin-top: 30px;
   border: none;
   height: 0.2px;
   background: rgba(65, 65, 65, 0.2196078431);
 }
+
 .card hr {
   margin-top: 30px;
   border: none;
@@ -457,6 +494,7 @@ footer {
   border-radius: 14px;
   overflow: hidden;
 }
+
 .cover__card img {
   width: 110%;
   transition: all 300ms;
@@ -468,6 +506,7 @@ footer {
   color: #fff;
   justify-content: space-between;
 }
+
 .footer__card h3 {
   font-size: 15px;
   font-weight: 500;
@@ -484,10 +523,12 @@ footer {
   width: 100%;
   display: flex;
 }
+
 .contenedor-contacto h3 {
   font-size: 26px;
   text-align: center;
 }
+
 .contenedor-contacto label {
   margin: 25px;
   display: flex;
@@ -499,10 +540,13 @@ footer {
 }
 
 @media screen and (max-width: 780px) {
-  html, body {
+
+  html,
+  body {
     width: 100% !important;
     overflow-x: hidden !important;
   }
+
   .container__cards {
     position: relative;
     top: 0;
@@ -511,35 +555,44 @@ footer {
     margin-top: 100px;
     padding-bottom: 100px;
   }
+
   .contenedordepie {
     margin-top: 10px;
     flex-wrap: wrap;
   }
+
   .colum1 {
     max-width: 100%;
   }
+
   .colum2,
   .colum3 {
     margin-top: 40px;
   }
+
   .container-info {
     display: flex;
     flex-direction: column;
   }
+
   .nosotros-texto {
     display: flex;
     flex-direction: column;
   }
+
   .nosotros-texto1 {
     display: flex;
     flex-direction: column-reverse;
   }
+
   .map {
     width: 100%;
   }
+
   iframe {
     width: 100%;
   }
+
   .contenedor-contacto {
     background-color: rgba(100, 85, 85, 0.8156862745);
     color: white;

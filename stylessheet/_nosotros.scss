@@ -1,0 +1,96 @@
+         /* PAGINA NOSOTROS */
+
+         #nosotros1 {
+           background-image: url(https://img.freepik.com/vector-gratis/fondo-patron-textura-fibra-carbono-negro_1017-33436.jpg?w=1380&t=st=1667675265~exp=1667675865~hmac=4f505174749f6e1360a010a7fd2b978c1f213ac50eea5482311c509dbb7bc4f8)
+         }
+
+
+         .nosotros2 {
+           text-align: center;
+           top: 250px;
+           margin-bottom: 5rem;
+           justify-items: center;
+         }
+
+         .nuestros-productos h1 {
+           bottom: 200px;
+           color: #a4f600;
+         }
+
+         .nosotros-texto {
+           color: white;
+           font-size: 20px;
+           display: flex;
+
+           p {
+             display: flex;
+             font-size: 30px;
+           }
+         }
+
+         .nosotros-texto p {
+           display: flex;
+
+           img {
+             display: flex;
+             border-radius: 1rem;
+             width: 500px;
+           }
+         }
+
+         .nosotros-texto1 {
+           color: white;
+           font-size: 20px;
+           display: flex;
+
+           img {
+             display: flex;
+             border-radius: 1rem;
+             width: 500px;
+           }
+         }
+
+         .nosotros-texto1 img {
+           display: flex;
+           border-radius: 1rem;
+           width: 500px;
+         }
+
+         .bloque {
+           margin: 20px;
+
+           display: flex;
+           font-size: 1rem;
+           margin-bottom: 5rem;
+           flex-direction: column;
+           align-items: center;
+
+           img {
+             width: 90px;
+             height: 90px;
+             display: flex;
+             align-content: center;
+           }
+
+         }
+
+
+         .bloque-titulo {
+           font-size: 40px;
+           margin: 0px;
+         }
+
+         .bloque {
+           position: relative;
+           color: white;
+           font-size: 20px;
+           margin-bottom: 5rem;
+         }
+
+         .bloque-titulo {
+           color: red;
+           font: 4rem;
+           margin: 3rem;
+           text-transform: uppercase;
+           font-weight: 800;
+         }

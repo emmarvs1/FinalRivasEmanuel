@@ -1,0 +1,92 @@
+      /* INFORMACION DE CONTACTO */
+
+      #info-contacto {
+        background-color: #1f53c5;
+      }
+
+      .contenedor-contacto {
+        background-color: #645555d0;
+        color: white;
+        width: 100%;
+        display: flex;
+
+        h3 {
+          font-size: 26px;
+          text-align: center;
+        }
+
+        label {
+          margin: 25px;
+          display: flex;
+        }
+      }
+
+
+      .fila4 {
+        align-items: center;
+        display: flex;
+      }
+
+      @media screen and (max-width: 780px) {
+
+        html,
+        body {
+          width: 100% !important;
+          overflow-x: hidden !important;
+        }
+
+        .container__cards {
+          position: relative;
+          top: 0;
+          left: 0;
+          transform: none;
+          margin-top: 100px;
+          padding-bottom: 100px;
+
+        }
+
+        .contenedordepie {
+          margin-top: 10px;
+          flex-wrap: wrap;
+        }
+
+        .colum1 {
+          max-width: 100%;
+        }
+
+        .colum2,
+        .colum3 {
+          margin-top: 40px;
+        }
+
+        .container-info {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .nosotros-texto {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .nosotros-texto1 {
+          display: flex;
+          flex-direction: column-reverse
+        }
+
+        .map {
+          width: 100%;
+        }
+
+        iframe {
+          width: 100%;
+        }
+
+        .contenedor-contacto {
+          background-color: rgba(100, 85, 85, 0.8156862745);
+          color: white;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+      }
