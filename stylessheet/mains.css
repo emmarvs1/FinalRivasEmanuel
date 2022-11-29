@@ -12,12 +12,15 @@
 #principal {
   background-image: url(../images/inicio.png);
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  min-height: 100%;
 }
 
 .content {
   display: flex;
-  margin: 30px;
+  margin: 100px;
   top: 27vh;
   left: 0%;
   width: 20%;
@@ -148,6 +151,7 @@ footer {
   width: 100%;
   background: #202020;
   color: #ffffff;
+  margin-top: auto;
 }
 
 .contenedordepie {
